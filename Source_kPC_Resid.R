@@ -1,0 +1,32 @@
+Source_kPC_Resid <- function(){
+  
+  library(pcalg) 
+  library(igraph)
+  library(kernlab)
+  library(psych)
+  library(mgcv)
+  library(pracma)
+  library(hash)
+  
+  source('Skeleton_R.R')
+  source('Collider.R')
+  source('updateUE.R')
+  source('SecondStage.R')
+  source('adiac_D.R')
+  source('condIndipTestQ.R')
+  source('HSIC.R')
+  source('adiac_S_Enter.R')
+  source('NOTImmort.R')
+  source('indipResid.R')
+  source('Final_Direction.R')
+  source('PartialCorrel.R')
+  source('GaussKern.R')
+  source('Centering.R')
+  source('HS_norm.R')
+  source('Permutation_test.R')
+  source('Gamma_test.R')
+  source('create_formula.R')
+  source('adiac_S_Exit_path.R')
+  source('path_N.R')
+  
+}
